@@ -50,5 +50,5 @@ jobs:
         with:
           app-name: 'flight-check-be'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_e5e2d9b7a39849929739a096817e991c }}
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_af10c76935af48a88cd663220250c6aa }}
           package: '*.jar'
